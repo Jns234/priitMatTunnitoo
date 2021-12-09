@@ -38,6 +38,10 @@
     <AndroidUseSharedRuntime>True</AndroidUseSharedRuntime>
     <AndroidLinkMode>None</AndroidLinkMode>
     <EmbedAssembliesIntoApk>False</EmbedAssembliesIntoApk>
+    <AotAssemblies>false</AotAssemblies>
+    <EnableLLVM>false</EnableLLVM>
+    <AndroidEnableProfiledAot>false</AndroidEnableProfiledAot>
+    <BundleAssemblies>false</BundleAssemblies>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugSymbols>True</DebugSymbols>
@@ -122,11 +126,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\NotesApp.Core\NotesApp.Core.csproj">
-<<<<<<< HEAD
       <Project>{0756227C-F158-47F2-892A-D27CC587D7A6}</Project>
-=======
-      <Project>{AE162BA1-7D25-4156-ABC7-8842BFE1838C}</Project>
->>>>>>> 92fce4e6bf9a8379eabbf3ab24f2f7f52fa583bd
       <Name>NotesApp.Core</Name>
     </ProjectReference>
   </ItemGroup>

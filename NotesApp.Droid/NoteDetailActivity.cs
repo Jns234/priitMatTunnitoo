@@ -2,13 +2,12 @@ using Android.App;
 using Android.Content;
 using Android.OS;
 using Android.Widget;
-<<<<<<< HEAD
+
 using NotesApp.Core.Models;
-=======
 using NotesApp.Core;
 using NotesApp.Core.Models;
 using SQLite;
->>>>>>> 92fce4e6bf9a8379eabbf3ab24f2f7f52fa583bd
+
 using System;
 
 namespace NotesApp.Droid
@@ -73,12 +72,7 @@ namespace NotesApp.Droid
         {
             MainActivity.SqlService.DeleteData(_note);
             Finish();
-<<<<<<< HEAD
-=======
 
-            //kui ma deletein, kustutab see note'i andmebaasist, aga see jääb listi nii kauaks, kuni ma rakenduse uuesti käima panen
-
->>>>>>> 92fce4e6bf9a8379eabbf3ab24f2f7f52fa583bd
         }
     }
 }

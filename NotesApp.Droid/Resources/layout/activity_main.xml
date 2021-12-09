@@ -12,19 +12,11 @@
         android:layout_height="match_parent"
         android:id="@+id/listView1" />
     <Button
-<<<<<<< HEAD
-        
+
+       
         android:layout_width="match_parent"
         android:layout_height="100px"
         android:id="@+id/addButton"
         android:text="Add note"/>
 </RelativeLayout>
-=======
-        android:layout_width="match_parent"
-        android:layout_height="150px"
-        android:id="@+id/addButton"
-        android:text="Add New Note"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentBottom="true"/>
-</RelativeLayout>
->>>>>>> 92fce4e6bf9a8379eabbf3ab24f2f7f52fa583bd
+
