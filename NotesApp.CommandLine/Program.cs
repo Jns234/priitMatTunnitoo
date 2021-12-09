@@ -1,8 +1,6 @@
-<<<<<<< HEAD
+
 using NotesApp.Core;
-=======
-﻿using NotesApp.Core;
->>>>>>> 92fce4e6bf9a8379eabbf3ab24f2f7f52fa583bd
+
 using NotesApp.Core.Models;
 using System;
 using System.Collections.Generic;
